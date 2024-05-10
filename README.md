@@ -3,4 +3,4 @@
 
 |Название проекта                     |Направление деятельности   |Используемые инструменты     | Задачи проекта                                                      |
 |:------------------------------------|:--------------------------|:----------------------------|:--------------------------------------------------------------------|
-|[Telegram bot for btc usd](https://github.com/sx118828/Pet-project)|`MLOps`|*telebot*, *requests*, *wheel*|Развернуть telegram бота возвращабщего по запросу 'price' BTC цену в долларах|
+|[Telegram bot for btc usd]([https://github.com/sx118828/Pet-project](https://github.com/sx118828/TgBotLlm/blob/main/tg_bot_btc_usd.py))|`Python developer`|*telebot*, *requests*, *wheel*|Развернуть telegram бота, возвращабщего цену в долларах, по запросу 'price' BTC |
