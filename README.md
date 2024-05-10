@@ -6,6 +6,8 @@
 |[Telegram bot for btc usd](https://github.com/sx118828/TgBotLlm/blob/main/tg_bot_btc_usd.py)|`Python developer`|*telebot*, *requests*, *wheel*|Развернуть telegram бота, возвращабщего цену в долларах, по запросу 'price' BTC |
 
 ## Подробное руководство
+
+### А. Развернуть на локальном компьютере
 1. Открыть терминал Linux (Alt + T) и ввести команду `pwd`, посмотреть директорию в которой находимся.
 2. Ввести `cd /home/` чтобы перейти в директорию - home.
 3. Ввести `sudo -s` для получения прав root.
@@ -20,5 +22,9 @@
 12. Копировать токен, выданный @BotFather и вставить его вместо `<tokem_from_@BotFather>`, далее `Ctrl + O`, `Enter` и `Ctrl + X`.
 13. Переименовать файл auth_data_btc_usd.py в auth_data.py командой `mv auth_data_btc_usd.py auth_data.py`.
 14. Запустить бота `python3 tg_bot_btc_usd.py`.
+
+### А. Развернуть на сервере
+1. *(пункты в разработке).*
+
 ###### Данный проект пересекается с проектом на [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
 
