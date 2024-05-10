@@ -1,1 +1,1 @@
-token = 'tokem_from_@BotFather'
+token = '<tokem_from_@BotFather>'
