@@ -42,7 +42,7 @@
 16.	Далее создаем службу `nano /lib/systemd/system/fonlinefinbot.service` для постоянной работы нашего бота.
 17.	Копируем в открытый файл fonlinefinbot.service слудующие строки
     
-[Unit]
+|[Unit]
 Description=Football online bot
 After=network.target
 
@@ -56,7 +56,7 @@ Restart=always
 RestartSec=5
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target|
 
 ###### Данный проект пересекается с проектом на [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
 
