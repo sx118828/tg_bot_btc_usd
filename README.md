@@ -30,7 +30,7 @@
 4.	Проверяем директорию в которой находимся командой `pwd`.
 5.	Вводим `cd ../` или `cd /home/` для перехода в папку home.
 6.	Создаем папку с проектом `mkdir tgbotfin` и переходим в нее `cd tgbotfin/`.
-7.	Даем пользователю user1 возможность загружать файлы с локального компьютера на нашу ВМ командами `sudo usermod -a -G www-data user1`, `sudo chown -R www-data:www-data /home/tgbotfin`, `sudo chmod -R 0775 /home/tgbotfin`.
+7.	Даем пользователю user1 возможность загружать файлы с локального компьютера на нашу ВМ командами: `sudo usermod -a -G www-data user1`, `sudo chown -R www-data:www-data /home/tgbotfin`, `sudo chmod -R 0775 /home/tgbotfin`.
 
 
 
