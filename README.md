@@ -31,6 +31,7 @@
 5.	Вводим `cd ../` или `cd /home/` для перехода в папку home.
 6.	Создаем папку с проектом `mkdir tgbotfin` и переходим в нее `cd tgbotfin/`.
 7.	Даем пользователю user1 возможность загружать файлы с локального компьютера на нашу ВМ командами: `sudo usermod -a -G www-data user1`, `sudo chown -R www-data:www-data /home/tgbotfin`, `sudo chmod -R 0775 /home/tgbotfin`.
+8.	В терминале на локальной машине (под Windows рекомендую PowerShell) вводим следующие команды `pscp "C:\project\auth_data.py" user1@95.174.90.xxx:/home/tgbotfin` для копирования файлов проекта на ВМ (здесь user1 - это логин (пользователь) нашей ВМ, 95.174.90.xxx - публичный IP-адрес нашей ВМ).
 
 
 
