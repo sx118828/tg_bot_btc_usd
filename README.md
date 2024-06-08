@@ -62,10 +62,9 @@
     * EnvironmentFile — путь к файлу с переменными
     * ExecStart и ExecReload — это команды для запуска и перезапуска бота
     * WorkingDirectory — путь к папке в которой файл запуска main.py
-22.	
-    
-  
+22.	Запускаем службу командами `systemctl enable fonlinefinbot`, `systemctl start fonlinefinbot`, после этого бот будет постоянно "крутится" на сервере.  
    
+    
 
 ###### Данный проект пересекается с проектом на [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
 
