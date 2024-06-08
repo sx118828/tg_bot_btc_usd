@@ -8,7 +8,7 @@
 ## Подробное руководство
 
 ### A. Развернуть на локальном компьютере
-1. Открыть терминал Linux (Alt + T) и ввести команду `pwd`, посмотреть директорию в которой находимся.
+1. Открыть терминал Linux (Alt + T или Ctrl+Alt+T) и ввести команду `pwd`, посмотреть директорию в которой находимся.
 2. Ввести `cd /home/` чтобы перейти в директорию - home.
 3. Ввести `sudo -s` для получения прав root.
 4. Обновить пакеты вводом команд `apt install sudo`, `sudo apt update`, `sudo apt upgrade -y`.
@@ -41,7 +41,6 @@
 15.	Копировать токен, выданный @BotFather и вставить его вместо `<tokem_from_@BotFather>`, далее `Ctrl + O`, `Enter` и `Ctrl + X`.
 16.	Далее создаем службу `nano /lib/systemd/system/fonlinefinbot.service` для постоянной работы нашего бота.
 17.	Копируем в открытый файл fonlinefinbot.service слудующие строки
-    
     * [Unit]
     * Description=Football online bot
     * After=network.target
@@ -57,6 +56,16 @@
 
     * [Install]
     * WantedBy=multi-user.target
+19.	Далее `Ctrl + O`, `Enter` и `Ctrl + X`.
+20.	Для справки:
+    ** Description — описание службы.
+    ** EnvironmentFile — путь к файлу с переменными.
+    ** ExecStart и ExecReload — это команды для запуска и перезапуска бота.
+    ** WorkingDirectory — путь к папке в которой файл запуска main.py.
+22.	
+    
+  
+   
 
 ###### Данный проект пересекается с проектом на [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
 
