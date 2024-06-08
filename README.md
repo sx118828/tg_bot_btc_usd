@@ -58,10 +58,10 @@
     * WantedBy=multi-user.target
 19.	Далее `Ctrl + O`, `Enter` и `Ctrl + X`.
 20.	Для справки:
-    * Description — описание службы.
-    * EnvironmentFile — путь к файлу с переменными.
-    * ExecStart и ExecReload — это команды для запуска и перезапуска бота.
-    * WorkingDirectory — путь к папке в которой файл запуска main.py.
+    * Description — описание службы
+    * EnvironmentFile — путь к файлу с переменными
+    * ExecStart и ExecReload — это команды для запуска и перезапуска бота
+    * WorkingDirectory — путь к папке в которой файл запуска main.py
 22.	
     
   
