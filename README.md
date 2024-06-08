@@ -36,11 +36,11 @@
 10.	В директории `/home/tgbotfin/` на ВМ вводим в терминале `ls` чтобы убедится в наличии файлов проекта: tg_bot_btc_usd.py, auth_data.py.
 11.	Будем считать, что python на ВМ уже установлен (если нет, повторите пункты 4-5 раздела А. Развернуть на локальном компьютере), поэтому сразу в директории /home/tgbotfin/создаем виртуальное окружение командой `python3 -m venv venvFINBOT`.
 12.	Активировать виртуальное окружение `source venvFINBOT/bin/activate`.
-13.	Устанавить библиотеки `pip install requests`, `pip install wheel`, `pip install telebot`.
+13.	Установить библиотеки `pip install requests`, `pip install wheel`, `pip install telebot`.
 14.	Открыть для редактирования файл с идентификационными данными `nano auth_data.py`.
 15.	Копировать токен, выданный @BotFather и вставить его вместо `<tokem_from_@BotFather>`, далее `Ctrl + O`, `Enter` и `Ctrl + X`.
 16.	Далее создаем службу `nano /lib/systemd/system/fonlinefinbot.service` для постоянной работы нашего бота.
-17.	Копируем в открытый файл fonlinefinbot.service слудующие строки
+17.	Копируем в открытый файл fonlinefinbot.service следующие строки
     * [Unit]
     * Description=Football online bot
     * After=network.target
@@ -66,5 +66,6 @@
    
     
 
-###### Данный проект пересекается с проектом на [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
+###### На данный проект я был вдохновлен проектом с [PythonToday](https://www.youtube.com/watch?v=x-VB3b4pKcU&list=PLqGS6O1-DZLoAADhgzzkvc8ifKsKG4G-T&index=4)
+
 
